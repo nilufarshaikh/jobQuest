@@ -1,10 +1,21 @@
+import {
+  SignedIn,
+  SignedOut,
+  SignInButton,
+  UserButton,
+} from "@clerk/clerk-react";
 import "./App.css";
 
 function App() {
   return (
-    <div>
-      <h1 className="text-3xl font-bold">Hello Tailwind!</h1>
-    </div>
+    <header>
+      <SignedOut>
+        <SignInButton />
+      </SignedOut>
+      <SignedIn>
+        <UserButton />
+      </SignedIn>
+    </header>
   );
 }
 
