@@ -19,7 +19,7 @@ const ThemeToggle = () => {
     <label className="swap swap-rotate">
       <input
         type="checkbox"
-        className="theme-controller"
+        className="theme-controller theme-checkbox"
         value="synthwave"
         onChange={toggleTheme}
       />

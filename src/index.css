@@ -1,3 +1,9 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+input.theme-checkbox {
+  visibility: hidden;
+  width: auto;
+  height: auto;
+}

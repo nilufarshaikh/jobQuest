@@ -9,7 +9,7 @@ const Dashboard = () => {
       </div>
       <div className="lg:col-span-4">
         <Navbar />
-        <div className="py-16 px-4 sm:px-8 lg:px-16">List of Jobs Page</div>
+        <h2 className="text-2xl font-bold mb-6">Job List</h2>
       </div>
     </main>
   );

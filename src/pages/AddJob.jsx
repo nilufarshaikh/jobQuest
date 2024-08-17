@@ -1,5 +1,6 @@
 import Sidebar from "../components/Sidebar";
 import Navbar from "../components/Navbar";
+import JobForm from "../components/JobForm";
 
 const Dashboard = () => {
   return (
@@ -9,7 +10,9 @@ const Dashboard = () => {
       </div>
       <div className="lg:col-span-4">
         <Navbar />
-        <div className="py-16 px-4 sm:px-8 lg:px-16">A a Job Page</div>
+        <div className="py-12 px-4 sm:px-8 lg:px-16">
+          <JobForm />
+        </div>
       </div>
     </main>
   );

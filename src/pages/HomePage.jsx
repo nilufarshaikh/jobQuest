@@ -19,7 +19,7 @@ const HomePage = () => {
             Search Efforts.
           </p>
           <Link to="/dashboard">
-            <button className="btn btn-primary mt-4">Get Started</button>
+            <button className="btn btn-accent mt-4">Get Started</button>
           </Link>
         </div>
         <img

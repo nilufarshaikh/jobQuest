@@ -9,7 +9,7 @@ const Resources = () => {
       </div>
       <div className="lg:col-span-4">
         <Navbar />
-        <div className="py-16 px-4 sm:px-8 lg:px-16">Resources Page</div>
+        <h2 className="text-2xl font-bold mb-6">Resources</h2>
       </div>
     </main>
   );

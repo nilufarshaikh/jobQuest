@@ -10,9 +10,9 @@ export default {
     extend: {},
   },
   plugins: [
-    require("@tailwindcss/forms"),
     require("@tailwindcss/typography"),
     require("daisyui"),
+    require("@tailwindcss/forms"),
   ],
   daisyui: {
     themes: ["fantasy", "dim"],
