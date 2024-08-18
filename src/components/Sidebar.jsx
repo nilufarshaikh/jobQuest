@@ -3,7 +3,9 @@ import { Link } from "react-router-dom";
 const Sidebar = () => {
   return (
     <aside className="py-4 px-8 h-full bg-base-200">
-      JobQuest
+      <h2 className="text-2xl font-bold text-primary">
+        <Link to="/">JobQuest</Link>
+      </h2>
       <ul className="menu w-56 mt-20 gap-y-4">
         <li>
           <Link to="/dashboard">

@@ -4,10 +4,12 @@ import { Link } from "react-router-dom";
 
 const HomePage = () => {
   return (
-    <main>
-      <header className="max-w-6xl mx-auto px-4 sm:px-8 py-6 ">
+    <main className="bg-base-200">
+      <header className="max-w-6xl mx-auto px-4 sm:px-8 py-6 b">
         {/* <img src={Logo} alt="Logo" /> */}
-        <h2 className="font-bold">JobQuest</h2>
+        <h2 className="text-2xl font-bold text-primary">
+          <Link to="/">JobQuest</Link>
+        </h2>
       </header>
       <section className="max-w-6xl mx-auto px-4 sm:px-8 h-screen -mt-20 grid lg:grid-cols-[1fr,400px] items-center">
         <div>
@@ -19,7 +21,7 @@ const HomePage = () => {
             Search Efforts.
           </p>
           <Link to="/dashboard">
-            <button className="btn btn-accent mt-4">Get Started</button>
+            <button className="btn btn-primary mt-4">Get Started</button>
           </Link>
         </div>
         <img

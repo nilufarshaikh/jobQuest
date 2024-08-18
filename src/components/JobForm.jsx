@@ -167,7 +167,7 @@ const JobForm = () => {
         </button>
         <button
           type="submit"
-          className="btn btn-accent rounded-md px-6 py-2 text-sm font-semibold shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
+          className="btn btn-primary rounded-md px-6 py-2 text-sm font-semibold shadow-sm focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2"
         >
           Save
         </button>
